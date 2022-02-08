@@ -1,6 +1,11 @@
 # Obsidian_Publish_MkDocs_Material_Vercel_template
 
-步骤：
+如果你用 Obsidian 记笔记，想公开分享你的笔记库，可以使用这个模板实现。这里提供的方法，解决了以下问题：
+
+1. Obsidian 官方的 publish 服务太贵了，而这个方法是免费的。
+2. 解决了双链引用的问题，渲染为链接的形式。
+
+## 极简步骤
 
 1. 点击 `use this template`，生成你自己的 GitHub 仓库。
 2. 在 [**Vercel**](https://vercel.com/) 部署这个仓库，框架选择 `other`，其他不用选，一路选默认直到部署完成。（如果还没注册 Vercel 账号，可以直接用 GitHub 账户创建一个）
@@ -20,3 +25,8 @@ For cloud deployment, the two key parts are:
 - The `build` script in `package.json` – Vercel runs it on deployments. Note that this is _not_ dockerized.
 
 The awesome [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) theme is used, with a couple of customizations.
+
+## 参考与致谢
+
+- [jobindj/obsidian-publish-mkdocs](https://github.com/jobindj/obsidian-publish-mkdocs)
+-
