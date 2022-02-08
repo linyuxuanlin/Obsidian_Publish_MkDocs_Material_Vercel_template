@@ -1,5 +1,5 @@
-site_name: 胡思乱想，一派胡言
-repo_url: https://github.com/linyuxuanlin/Wiki-nonsense
+site_name: 站点名字（请修改）
+repo_url: https://github.com/linyuxuanlin/Wiki-nonsense #（请修改为你自己的仓库地址）
 edit_uri: edit/main/docs/
 
 theme:
